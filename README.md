@@ -83,6 +83,7 @@ Just include `Shadowscript` in your node's `run_list`:
   - The MIT License (MIT)
   - Copyright (c) 2016 Shadowscript
   - Copyright (c) 2016 Eric Caleb
+
 #### Contributers
-  > Shadowscript @shadowscript
-  > Eric Caleb @iamcaleberic
+  - Shadowscript @shadowscript
+  - Eric Caleb @iamcaleberic
