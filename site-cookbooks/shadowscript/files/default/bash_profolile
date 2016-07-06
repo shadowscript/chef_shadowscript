@@ -1,0 +1,1 @@
+export RVM_ROOT="${HOME}/.rvm"

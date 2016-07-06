@@ -1,0 +1,33 @@
+{
+
+  "run_list": [
+    "recipe[project_name]",
+    "recipe[project_name::users]",
+    "recipe[project_name::ssh]",
+    "recipe[project_name::nodejs]",
+    "recipe[project_name::postgres]",
+    "recipe[project_name::rvm]",
+    "recipe[project_name::redis]",
+    "recipe[project_name::apache]",
+    "recipe[project_name::app]"
+  ],
+
+
+  "group": "group",
+  "port": 1000,
+
+  "user": {
+    "name": "username",
+    "password": "hashed password",
+    "_comment": "openssl passwd -1 "theplaintextpassword""
+
+  },
+
+  "db": {
+    "root_password": "db root password",
+    "user": {
+      "name": "db username",
+      "password": "password"
+    }
+  }
+}

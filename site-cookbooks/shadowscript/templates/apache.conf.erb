@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+	ServerName <%= node['app'] %>.com 
+	ServerAlias <%= node['app'] %>.com
+	ServerAdmin webmaster@localhost.com
+	DocumentRoot home/<%= node['user']['name'] %>/<%= node['app'] %>/current/public
+	RailsEnv production
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+	<Directory "home/<%= node['user']['name'] %>/<%= node['app'] %>/current/public"
+	Options FollowSymLinks
+	Require all granted
+	</Directory>
+</VirtualHost>
