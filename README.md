@@ -8,7 +8,7 @@ This Cookbook is a ready to use cookbook for provisioning servers
 It can be used for:
  - `Ruby Rails`
  - In progress `{Django applications}`
- 
+
 ### Platforms
 
 - Ubuntu
@@ -79,10 +79,10 @@ Just include `Shadowscript` in your node's `run_list`:
 6. Submit a Pull Request using Github
 
 ## License and Authors
-  Author Eric Caleb / Shadowscript
-  The MIT License (MIT)
-  Copyright (c) 2016 Shadowscript
-  Copyright (c) 2016 Eric Caleb
-
-  Shadowscript
-  Eric Caleb
+  - Author Eric Caleb / Shadowscript
+  - The MIT License (MIT)
+  - Copyright (c) 2016 Shadowscript
+  - Copyright (c) 2016 Eric Caleb
+#### Contributers
+  > Shadowscript @shadowscript
+  > Eric Caleb @iamcaleberic
